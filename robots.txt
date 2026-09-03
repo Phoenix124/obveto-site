@@ -1,0 +1,7 @@
+User-agent: Yandex
+Allow: /
+
+User-agent: *
+Disallow: /
+
+Sitemap: https://obveto.ru/sitemap.xml

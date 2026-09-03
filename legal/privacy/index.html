@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Obveto</title>
+  <meta name="description" content="What the Obveto app and the obveto.com website do — and deliberately do not do — with your data.">
+  <link rel="icon" href="../../favicon.png" type="image/png">
+  <style>
+    :root {
+      --bg: #f7f3ee; --ink: #1a140e; --ink-70: rgba(26, 20, 14, 0.72);
+      --line: rgba(26, 20, 14, 0.1); --accent: #d35400;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--ink);
+      font: 16px/1.65 Georgia, "Times New Roman", serif;
+    }
+    main { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem; }
+    h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 0.4rem; }
+    h2 { font-size: 1.25rem; margin: 2.2rem 0 0.6rem; }
+    p, li { color: var(--ink-70); }
+    a { color: var(--accent); }
+    .meta { color: var(--ink-70); font-size: 0.9rem; margin-bottom: 2rem; }
+    .todo { background: rgba(211, 84, 0, 0.08); border: 1px solid rgba(211, 84, 0, 0.3); padding: 0.6rem 0.9rem; border-radius: 6px; }
+    .back { display: inline-block; margin-bottom: 2rem; font-size: 0.9rem; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
+  </style>
+</head>
+<body>
+<main>
+  <a class="back" href="../../">&larr; obveto.com</a>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Last updated: September 1, 2026 · English only for now</p>
+
+  <p>The Obveto application and this website are operated by
+  <strong>Obveto</strong> (&ldquo;we&rdquo;).
+  Contact: <a href="mailto:hello@obveto.com">hello@obveto.com</a>.</p>
+
+  <p>Obveto exists because meeting audio should not leave the room it was
+  recorded in. This policy covers two separate things: the desktop application,
+  and the website you are reading now. The short version: the application sends
+  us nothing at all, and the website collects only what you type into the
+  contact form.</p>
+
+  <h2>1. The application</h2>
+  <p>Obveto is a local, on-device meeting notetaker. By design:</p>
+  <ul>
+    <li><strong>No account, no sign-up, no telemetry.</strong> The app has no
+    analytics, no crash reporting to us, and no usage tracking of any kind. We
+    do not know that you installed it, and we cannot see how you use it.</li>
+    <li><strong>Recordings, transcripts, notes and voice profiles never leave
+    your computer.</strong> All processing — transcription, speaker
+    recognition, summarization — runs on your machine. Your files are stored
+    in a folder you choose (by default <code>Documents/Obveto</code>) and in a
+    local database on the same machine.</li>
+    <li><strong>License activation is offline.</strong> A license key is
+    verified on your machine; no activation server is contacted.</li>
+    <li><strong>The diagnostic log is local.</strong> The app can write a
+    troubleshooting log on your disk. It contains technical stages and errors,
+    never transcript or meeting content, and it is only ever sent to us if you
+    attach it to an email yourself.</li>
+  </ul>
+  <p>The application connects to the internet only when you ask it to:</p>
+  <ul>
+    <li>downloading speech and summary models (from Hugging Face, GitHub, or
+    the Ollama registry) during setup or from Settings;</li>
+    <li>checking for updates — <em>off by default</em> — against GitHub;</li>
+    <li>opening links to this website from the app.</li>
+  </ul>
+  <p>Those requests go to the named third parties and are subject to their
+  privacy policies; they carry no meeting data — only ordinary web-request
+  metadata such as your IP address.</p>
+
+  <h2>2. The website (obveto.com)</h2>
+  <ul>
+    <li><strong>No cookies, no analytics, no trackers.</strong> The site sets
+    nothing and runs no third-party analytics scripts.</li>
+    <li><strong>Hosting.</strong> The site is served by Cloudflare, Inc. As
+    with any host, Cloudflare processes visitors&rsquo; IP addresses and
+    standard request logs to deliver the pages and protect against abuse.</li>
+    <li><strong>Fonts.</strong> The landing page loads its typefaces from
+    Google Fonts, which means your browser requests files from Google servers
+    and discloses your IP address to Google. This legal page does not.</li>
+    <li><strong>Contact form.</strong> If you write to us, we receive what you
+    submit — name, email address, optional company, your message, the page
+    language — plus your IP address, delivered to our mailbox as an email via
+    Cloudflare Email Routing. We use it solely to answer you, and we keep the
+    correspondence only as long as needed for that purpose. It is never sold
+    or shared for marketing.</li>
+    <li><strong>Downloads.</strong> Installer downloads are served from GitHub
+    Releases (GitHub, Inc.), subject to GitHub&rsquo;s privacy policy.</li>
+    <li><strong>obveto.ru.</strong> The Russian-language mirror is hosted on
+    GitHub Pages; GitHub processes visitor IPs and request logs there.</li>
+  </ul>
+
+  <h2>3. Legal bases (GDPR)</h2>
+  <p>Where the GDPR applies: we process contact-form data to respond to your
+  enquiry (Art. 6(1)(b) and (f)); hosting and abuse-protection logs rest on
+  our legitimate interest in operating a secure website (Art. 6(1)(f)).</p>
+
+  <h2>4. Your rights</h2>
+  <p>Depending on where you live, you may have the right to access, correct,
+  delete, or receive a copy of personal data we hold about you, to object to
+  or restrict its processing, and to lodge a complaint with a supervisory
+  authority. Since the only personal data we hold is correspondence you sent
+  us, a single email to <a href="mailto:hello@obveto.com">hello@obveto.com</a>
+  handles all of it.</p>
+
+  <h2>5. Changes</h2>
+  <p>If this policy changes, the new version is published here with an updated
+  date. The promise at the core of it — the app sends us nothing — is the
+  product; a change to that would be a different product, not a policy
+  edit.</p>
+
+  <hr>
+  <p><a href="../eula/">End User License Agreement</a></p>
+</main>
+</body>
+</html>
